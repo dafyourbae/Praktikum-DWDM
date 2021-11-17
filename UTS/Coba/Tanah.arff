@@ -1,0 +1,36 @@
+@relation Tanah
+
+@attribute Lokasi {'Lokasi 1','Lokasi 2','Lokasi 3','Lokasi 4','Lokasi 5','Lokasi 6','Lokasi 7','Lokasi 8','Lokasi 9','Lokasi 10','Lokasi 11','Lokasi 12','Lokasi 13','Lokasi 14','Lokasi 15','Lokasi 16','Lokasi 17','Lokasi 18','Lokasi 19','Lokasi 20','Lokasi 21','Lokasi 22','Lokasi 23','Lokasi 24','Lokasi 25'}
+@attribute 'Jarak Dari Pemukiman (meter)' real
+@attribute 'Akses Jalan' {mudah,sulit,sedang}
+@attribute 'Luas Tanah (m2)' real
+@attribute 'Harga Tanah (juta)' real
+@attribute 'PBB (juta)' real
+@attribute 'Keputusan Dipilih' {YA,TIDAK}
+
+@data
+'Lokasi 1',771,mudah,10500,704,2,YA
+'Lokasi 2',892,sulit,12100,656,2,YA
+'Lokasi 3',567,mudah,10500,677,4,TIDAK
+'Lokasi 4',841,sulit,12200,858,3,TIDAK
+'Lokasi 5',523,mudah,10800,782,2,YA
+'Lokasi 6',960,sulit,12500,559,5,YA
+'Lokasi 7',556,mudah,10200,612,3,TIDAK
+'Lokasi 8',575,mudah,10100,588,4,YA
+'Lokasi 9',889,sulit,12300,558,3,TIDAK
+'Lokasi 10',598,mudah,11600,694,4,YA
+'Lokasi 11',845,sulit,12500,631,5,YA
+'Lokasi 12',550,mudah,10900,560,5,YA
+'Lokasi 13',552,mudah,10000,642,3,TIDAK
+'Lokasi 14',841,sulit,12100,586,2,YA
+'Lokasi 15',789,sedang,11200,812,3,TIDAK
+'Lokasi 16',910,sulit,12400,755,5,TIDAK
+'Lokasi 17',898,sulit,12600,839,4,YA
+'Lokasi 18',550,mudah,10400,634,4,YA
+'Lokasi 19',552,mudah,10300,504,5,TIDAK
+'Lokasi 20',841,sulit,12200,875,2,YA
+'Lokasi 21',579,mudah,10000,646,3,TIDAK
+'Lokasi 22',676,sedang,11300,677,3,YA
+'Lokasi 23',856,sulit,12200,631,2,YA
+'Lokasi 24',657,sedang,11500,696,5,TIDAK
+'Lokasi 25',711,sedang,11200,745,4,YA

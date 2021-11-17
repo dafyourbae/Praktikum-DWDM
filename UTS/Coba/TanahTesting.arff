@@ -1,0 +1,21 @@
+@relation TanahTesting
+
+@attribute Lokasi {A,B,C,D,E,F,G,H,I,J}
+@attribute 'Jarak Dari Pemukiman (meter)' real
+@attribute 'Akses Jalan' {mudah,sedang,sulit}
+@attribute 'Luas Tanah (m2)' real
+@attribute 'Harga Tanah (juta)' real
+@attribute 'PBB (juta)' real
+@attribute 'Keputusan Dipilih' {YA,TIDAK}
+
+@data
+A,600,mudah,10800,780,3,?
+B,603,mudah,10000,885,3,?
+C,711,sedang,11300,824,2,?
+D,801,sedang,10400,867,3,?
+E,611,mudah,10200,626,4,?
+F,899,sulit,12900,638,4,?
+G,777,sedang,11250,640,2,?
+H,612,mudah,10200,540,5,?
+I,851,sulit,12900,892,5,?
+J,757,sedang,11250,890,2,?

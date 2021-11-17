@@ -1,0 +1,23 @@
+@relation TanahTesting_predicted
+
+@attribute Lokasi {A,B,C,D,E,F,G,H,I,J}
+@attribute 'Jarak Dari Pemukiman (meter)' numeric
+@attribute 'Akses Jalan' {mudah,sedang,sulit}
+@attribute 'Luas Tanah (m2)' numeric
+@attribute 'Harga Tanah (juta)' numeric
+@attribute 'PBB (juta)' numeric
+@attribute 'prediction margin' numeric
+@attribute 'predicted Keputusan Dipilih' {YA,TIDAK}
+@attribute 'Keputusan Dipilih' {YA,TIDAK}
+
+@data
+?,600,mudah,10800,780,3,-0.138481,TIDAK,?
+?,603,mudah,10000,885,3,-0.603794,TIDAK,?
+?,711,sulit,11300,824,2,0.418453,YA,?
+?,801,sulit,10400,867,3,-0.263795,TIDAK,?
+?,611,mudah,10200,626,4,-0.492461,TIDAK,?
+?,899,sedang,12900,638,4,0.668007,YA,?
+?,777,sulit,11250,640,2,0.543797,YA,?
+?,612,mudah,10200,540,5,-0.515028,TIDAK,?
+?,851,sedang,12900,892,5,0.546236,YA,?
+?,757,sulit,11250,890,2,0.362369,YA,?
