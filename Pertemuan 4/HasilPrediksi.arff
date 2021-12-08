@@ -1,0 +1,18 @@
+@relation CuacaTesting_predicted
+
+@attribute Cuaca {Cerah,Mendung,Hujan}
+@attribute Suhu numeric
+@attribute Kelembaban_udara numeric
+@attribute Berangin {YA,TIDAK}
+@attribute 'prediction margin' numeric
+@attribute 'predicted Bermain_Tenis' {YA,TIDAK}
+@attribute Bermain_Tenis {YA,TIDAK}
+
+@data
+Cerah,75,65,TIDAK,0.762765,YA,?
+Cerah,80,68,YA,0.087878,YA,?
+Cerah,83,87,YA,-0.676866,TIDAK,?
+Mendung,70,96,TIDAK,0.628523,YA,?
+Mendung,68,81,TIDAK,0.833996,YA,?
+Hujan,65,75,YA,0.253733,YA,?
+Hujan,64,85,YA,-0.160143,TIDAK,?
